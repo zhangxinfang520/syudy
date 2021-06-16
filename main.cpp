@@ -29,5 +29,14 @@ int main1() {
     return 0;
 }
 
+void test_dll(int a,int b){
+    cout << a <<endl;
+    cout << b <<endl;
+
+}
+
+int main(){
+    main1();
+}
 
 

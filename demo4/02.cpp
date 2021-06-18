@@ -12,20 +12,33 @@ using namespace std;
 
 class Person{
 public:
-    string m_Nmae;
+    string m_Name;
 protected:
     string m_Car;
 private:
     int m_Password;
 public:
     void func(){
-        m_Nmae  = "aaa";
-        m_Car  = "aaa";
+        m_Name  = "aaa";
+        m_Car  = "aaa1";
     }
+    void  printInfo(){
+        cout <<m_Name <<endl;
+        cout <<m_Car <<endl;
+        getName();
+    }
+private:
+    void getName(){
+        cout << m_Name <<endl;
+    }
+
 };
 
 
 int main(){
+    Person person;
+    person.func();
+    person.printInfo();
 
 }
 

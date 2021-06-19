@@ -25,3 +25,9 @@ add_executable(demo4_02 demo4/02.cpp)
 add_executable(demo4_03 demo4/03.cpp)
 add_executable(demo4_04 demo4/04.cpp)
 add_executable(demo4_05 demo4/05.cpp)
+
+add_executable(demo5_01 demo5/01.cpp demo5/point.h demo5/point.cpp demo5/cycle.h demo5/cycle.cpp)
+
+
+add_executable(demo5_02 demo5/02.cpp)
+add_executable(demo5_03 demo5/03.cpp)

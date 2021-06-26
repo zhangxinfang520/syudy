@@ -64,3 +64,10 @@ add_executable(demo10_01 demo10/01.cpp)
 add_executable(demo10_02 demo10/02.cpp)
 add_executable(demo10_03 demo10/03.cpp)
 add_executable(demo10_04 demo10/04.cpp)
+
+add_executable(project03_mange_system project03/mange_system.cpp project03/workerManager.cpp
+        project03/workerManager.h project03/worker.h project03/employee.cpp project03/employee.h project03/boss.cpp
+        project03/boss.h project03/manager.h project03/manager.cpp)
+
+add_executable(project03_test project03/test.cpp project03/worker.h project03/employee.h project03/employee.cpp
+        project03/manager.cpp project03/manager.h project03/boss.h project03/boss.cpp)

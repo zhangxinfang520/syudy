@@ -71,3 +71,11 @@ add_executable(project03_mange_system project03/mange_system.cpp project03/worke
 
 add_executable(project03_test project03/test.cpp project03/worker.h project03/employee.h project03/employee.cpp
         project03/manager.cpp project03/manager.h project03/boss.h project03/boss.cpp)
+add_executable(demo11_01 demo11/01.cpp)
+add_executable(demo11_02 demo11/02.cpp)
+add_executable(demo11_03 demo11/03.cpp)
+add_executable(demo11_04 demo11/04.cpp)
+add_executable(demo11_05 demo11/05.cpp)
+add_executable(demo11_06 demo11/06.cpp)
+add_executable(demo11_07 demo11/07.cpp)
+add_executable(demo11_08 demo11/08.cpp)

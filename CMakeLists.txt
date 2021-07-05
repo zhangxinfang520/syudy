@@ -128,3 +128,6 @@ add_executable(leetcode_01 leetcode/01.cpp)
 add_executable(demo18_03 demo18/03.cpp)
 add_executable(demo18_04 demo18/04.cpp)
 add_executable(demo18_05 demo18/05.cpp)
+add_executable(project06_main project06/main.cpp
+        project06/speechManager.cpp project06/speechManager.h project06/speaker.h)
+add_executable(leetcode_02 leetcode/02.cpp)

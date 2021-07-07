@@ -131,3 +131,9 @@ add_executable(demo18_05 demo18/05.cpp)
 add_executable(project06_main project06/main.cpp
         project06/speechManager.cpp project06/speechManager.h project06/speaker.h)
 add_executable(leetcode_02 leetcode/02.cpp)
+
+add_executable(project07_main project07/main.cpp project07/Identity.h
+        project07/student.cpp project07/student.h project07/teacher.cpp
+        project07/teacher.h project07/manager.cpp project07/manager.h project07/globalFile.h
+        project07/computerRoom.h project07/orderFile.h project07/orderFile.cpp)
+add_executable(leetcode_03 leetcode/03.cpp)

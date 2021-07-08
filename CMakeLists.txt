@@ -137,3 +137,5 @@ add_executable(project07_main project07/main.cpp project07/Identity.h
         project07/teacher.h project07/manager.cpp project07/manager.h project07/globalFile.h
         project07/computerRoom.h project07/orderFile.h project07/orderFile.cpp)
 add_executable(leetcode_03 leetcode/03.cpp)
+
+add_executable(leetcode_04 leetcode/04.cpp)
